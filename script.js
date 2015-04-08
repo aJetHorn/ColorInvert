@@ -73,11 +73,11 @@ $(document).ready( function ()
   		//var grayHex = "#" + gray + gray + gray;
   		//var grayRGB = "rgb(" + color + "," + gray + "," + gray +")";
   		$(this).css("background-color", colorRGB);
-  		console.log($(this).css("background-color"));
-  		console.log($(this).css("background-color").split(","));
+  		//console.log($(this).css("background-color"));
+  		//console.log($(this).css("background-color").split(","));
 
   		var colors = $(this).css("background-color").split(",");
-  		console.log(colors[0].split("(")[1]);
+  		//console.log(colors[0].split("(")[1]);
   		//console.log(parseInt(colors[0].split("(")[1].trim()))
 	});
 
@@ -90,7 +90,7 @@ $(document).ready( function ()
 
    			var rgb = "rgb(" + (256 - red) + "," + (256 - blue) + "," + (256 - green) + ")";
    			$(this).css("background-color", rgb);
-   			console.log(rgb);
+   			//console.log(rgb);
 	 	});
 	});
 
